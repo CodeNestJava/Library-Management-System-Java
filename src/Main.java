@@ -20,7 +20,7 @@ public class Main {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine();
 
             if (choice == 1) {
                 System.out.print("Enter Book ID: ");
@@ -44,10 +44,10 @@ public class Main {
                     System.out.println("\n--- Library Books ---");
                     for (Book book : books) {
                         System.out.println(
-                            "ID: " + book.getId() +
-                            ", Title: " + book.getTitle() +
-                            ", Author: " + book.getAuthor() +
-                            ", Issued: " + (book.isIssued() ? "Yes" : "No")
+                                "ID: " + book.getId() +
+                                ", Title: " + book.getTitle() +
+                                ", Author: " + book.getAuthor() +
+                                ", Issued: " + (book.isIssued() ? "Yes" : "No")
                         );
                     }
                 }
