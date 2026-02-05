@@ -16,7 +16,8 @@ public class Main {
             System.out.println("\n===== Library Management System =====");
             System.out.println("1. Add Book");
             System.out.println("2. View Books");
-            System.out.println("3. Exit");
+            System.out.println("3. Issue Book");
+            System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
@@ -52,12 +53,38 @@ public class Main {
                     }
                 }
 
-            } else if (choice == 3) {
-                System.out.println("Exiting program...");
-                break;
+         } else if (choice == 3) {
+
+    System.out.print("Enter Book ID to issue: ");
+    int issueId = scanner.nextInt();
+
+    boolean found = false;
+
+    for (Book book : books) {
+        if (book.getId() == issueId) {
+            found = true;
+
+            if (book.isIssued()) {
+                System.out.println("Book is already issued.");
             } else {
-                System.out.println("Invalid choice. Try again.");
+                book.setIssued(true);
+                System.out.println("Book issued successfully!");
             }
+            break;
+        }
+    }
+
+    if (!found) {
+        System.out.println("Book not found.");
+    }
+
+} else if (choice == 4) {
+    System.out.println("Exiting program...");
+    break;
+} else {
+    System.out.println("Invalid choice. Try again.");
+}
+
         }
 
         scanner.close();
