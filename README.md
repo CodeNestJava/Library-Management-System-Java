@@ -1,6 +1,6 @@
 # 📚 Library Management System (Java)
 
-A simple console-based Library Management System built using Java and Object-Oriented Programming principles.
+A simple console-based Library Management System built using Java and Object-Oriented Programming (OOP) principles.
 
 ---
 
@@ -18,7 +18,7 @@ A simple console-based Library Management System built using Java and Object-Ori
 ## 🛠 Technologies Used
 
 - Java  
-- OOP (Object-Oriented Programming)  
+- Object-Oriented Programming (OOP)  
 - ArrayList  
 - Scanner class  
 
@@ -35,6 +35,9 @@ Library-Management-System-Java/
 │
 └── README.md
 ```
+
+---
+
 ## 🧠 Concepts Practiced
 
 - Classes and Objects  
@@ -42,14 +45,14 @@ Library-Management-System-Java/
 - Conditional statements  
 - Loops  
 - Searching in ArrayList  
-- State management (issued / returned)  
+- State management (Issued / Returned)  
 
 ---
 
 ## ▶️ How to Run
 
 1. Clone the repository  
-2. Open in any Java IDE (IntelliJ / Eclipse / VS Code)  
+2. Open the project in any Java IDE (IntelliJ / Eclipse / VS Code)  
 3. Run `Main.java`  
 4. Follow the on-screen menu instructions  
 
