@@ -25,16 +25,16 @@ A simple console-based Library Management System built using Java and Object-Ori
 ---
 
 ## 📂 Project Structure
+
+```
 Library-Management-System-Java/
 │
 ├── src/
-│ ├── Main.java
-│ └── Book.java
+│   ├── Main.java
+│   └── Book.java
 │
 └── README.md
-
----
-
+```
 ## 🧠 Concepts Practiced
 
 - Classes and Objects  
