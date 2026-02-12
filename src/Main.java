@@ -17,9 +17,9 @@ public class Main {
             System.out.println("1. Add Book");
             System.out.println("2. View Books");
             System.out.println("3. Issue Book");
-            System.out.println("4. Exit");
+            System.out.println("4. Return Book");
+            System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
-
             int choice = scanner.nextInt();
             scanner.nextLine();
 
@@ -79,14 +79,34 @@ public class Main {
     }
 
 } else if (choice == 4) {
+
+    System.out.print("Enter Book ID to return: ");
+    int returnId = scanner.nextInt();
+
+    boolean found = false;
+
+    for (Book book : books) {
+        if (book.getId() == returnId) {
+            found = true;
+
+            if (!book.isIssued()) {
+                System.out.println("Book was not issued.");
+            } else {
+                book.setIssued(false);
+                System.out.println("Book returned successfully!");
+            }
+            break;
+        }
+    }
+
+    if (!found) {
+        System.out.println("Book not found.");
+    }
+
+} else if (choice == 5) {
     System.out.println("Exiting program...");
     break;
 } else {
     System.out.println("Invalid choice. Try again.");
 }
 
-        }
-
-        scanner.close();
-    }
-}
