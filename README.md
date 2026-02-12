@@ -2,21 +2,27 @@
 
 A simple console-based Library Management System built using Java and Object-Oriented Programming principles.
 
+---
+
 ## 🚀 Features
 
-- ➕ Add new books
-- 📋 View all books
-- 📕 Issue a book
-- 📗 Return a book
-- ❌ Exit system safely
-- Interactive menu-driven console application
+- ➕ Add new books  
+- 📋 View all books  
+- 📕 Issue a book  
+- 📗 Return a book  
+- ❌ Exit system safely  
+- Interactive menu-driven console application  
+
+---
 
 ## 🛠 Technologies Used
 
-- Java
-- OOP (Object-Oriented Programming)
-- ArrayList
-- Scanner class
+- Java  
+- OOP (Object-Oriented Programming)  
+- ArrayList  
+- Scanner class  
+
+---
 
 ## 📂 Project Structure
 Library-Management-System-Java/
@@ -27,22 +33,26 @@ Library-Management-System-Java/
 │
 └── README.md
 
+---
+
 ## 🧠 Concepts Practiced
 
-- Classes and Objects
-- Encapsulation
-- Conditional statements
-- Loops
-- Searching in ArrayList
-- State management (issued / returned)
-
-## ▶️ How to Run
-
-1. Clone the repository
-2. Open in any Java IDE (IntelliJ / Eclipse / VS Code)
-3. Run `Main.java`
-4. Follow the on-screen menu instructions
+- Classes and Objects  
+- Encapsulation  
+- Conditional statements  
+- Loops  
+- Searching in ArrayList  
+- State management (issued / returned)  
 
 ---
 
-✨ This project was built as a practice project to strengthen Java fundamentals and OOP concepts.
+## ▶️ How to Run
+
+1. Clone the repository  
+2. Open in any Java IDE (IntelliJ / Eclipse / VS Code)  
+3. Run `Main.java`  
+4. Follow the on-screen menu instructions  
+
+---
+
+✨ This project was built to strengthen Java fundamentals and OOP concepts.
